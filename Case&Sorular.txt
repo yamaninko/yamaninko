@@ -1,0 +1,59 @@
+Proje github üzerinden paylaşılacaktır. Github üzerinde hesabınız yok ise hesap açmanız gerekmektedir. 
+
+
+Projede istediğiniz kodlama dili ve metedolojisini kullanabilirsiniz. 
+
+Herhangi bir konuyu seçebilirsiniz.
+
+1. Girilen n adet sayı değerlerini toplayan ve toplamını geri dönen Api Servis yazılması. (SOAP veya Rest) {100 puan}
+  - Api geliştirilmesinde istenilen
+     Api Geliştirmesi {40 puan}
+     En az bir Design Patern uygulanması {5 puan}
+	 Clear Code Architure Mimari yaklaşımı {5 puan}
+	 Girilen değerin db ye kadedilmesi {5 puan}
+	 Girilen değerin redis 'e eklenmesi {5 puan}
+	 Tüm yapının docker'da çalıştırılması {40 puan}
+
+2. Girilen kredi tutarına, tutara denk gelen faiz oranına ve vadeye göre ödeme planı oluşturulmalıdır.
+10.000 tl için 0.1 faiz
+20.000 tl için 0.2 faiz
+30.000 tl için 0.3 faiz vb.
+-Ödeme planı oluşturulan her sorgu db'ye kaydedilmelidir.
+-Db'ye kaydedilen sorgular bir gridde listelenmelidir.,Gridden bir kayıt seçildiğinde seçilen sorgunun ödeme planı açılmalıdır.
+-Cqrs pattern(20 puan), angular(40 puan) ve kendo(extra 20 puan) kullanmak, projeyi dockerda yayinlamak(40 puan).
+-Dockerda herhangi bir db(oracle, mssql, postgresql, mysql vb) kurabilirsiniz.(20 puan)
+
+
+
+4.SignalR ile Mesajlaşma Uygulaması Geliştirilmesi
+ - kullanıcılar kendilerine ait kullanıcı adlarıyla oturum başlatır.
+ - mesaj göndermek istediği kullanıcıları görüntüleyebilir.
+ - seçilen kullanıcıyla karşılıklı sohbet edilebilir.
+
+* mesajların depolanmasında mongodb kullanılması (10 puan)
+* yapılan işlemlerin (request'lerin) rabbitmq ile loglanması(25 puan)
+  - loglama işlemi db'ye (mongo vb.) yapılmalıdır.
+* mesaj iletimi için signalr kullanılması (30 puan)
+* grup mesajları gönderilebilmesi (10 puan)
+* redis cache kullanılması (10 puan)
+* docker kullanılması (15 puan)
+
+5. Flutter
+-Uygulama açılırken api den gelen data ile liste oluşturulacak. (http paketi kullanabilirsin)
+-Elemanların içeriğinde id ve title yazmalı 
+-Listenin elemanlarına tıklanıldığında detay sayfası açılmalı. 
+-Detay sayfasında büyük resim ve title görünmeli.
+-Elemanlar istenildiğinde listeden silinebilmeli ( Visibility ) 
+
+Url : https://jsonplaceholder.typicode.com/photos
+
+*API request -> 20 puan
+*Model dosyası oluşturma ->5 puan 
+*Liste işlemleri -> 25 puan
+*Detay Sayfası -> 20 puan
+*Eleman silebilme -> 15 puan 
+*Clean Code -> 15 puan.
+
+(Not : API request başarılı bir şekilde geçemezseniz liste ve detay sayfasını statik bir şekilde hazırlamanız size puan kazandıracak.)
+
+Sorularınız olursa bizimle iletişime geçebilirsiniz.
